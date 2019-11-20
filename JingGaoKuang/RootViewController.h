@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  JingGaoKuang
 //
 //  Created by 陈统帅 on 2019/9/2.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface RootViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

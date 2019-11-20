@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		616BC337231CC23900A6407F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 616BC336231CC23900A6407F /* AppDelegate.m */; };
-		616BC33A231CC23900A6407F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616BC339231CC23900A6407F /* ViewController.m */; };
-		616BC33D231CC23900A6407F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616BC33B231CC23900A6407F /* Main.storyboard */; };
 		616BC33F231CC23A00A6407F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 616BC33E231CC23A00A6407F /* Assets.xcassets */; };
 		616BC342231CC23A00A6407F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616BC340231CC23A00A6407F /* LaunchScreen.storyboard */; };
 		616BC345231CC23A00A6407F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 616BC344231CC23A00A6407F /* main.m */; };
 		616BC34F231CC23A00A6407F /* JingGaoKuangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 616BC34E231CC23A00A6407F /* JingGaoKuangTests.m */; };
 		616BC35A231CC23A00A6407F /* JingGaoKuangUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 616BC359231CC23A00A6407F /* JingGaoKuangUITests.m */; };
+		616BC36D231CF13E00A6407F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616BC36B231CF13E00A6407F /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +37,6 @@
 		616BC332231CC23800A6407F /* JingGaoKuang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JingGaoKuang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		616BC335231CC23900A6407F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		616BC336231CC23900A6407F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		616BC338231CC23900A6407F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		616BC339231CC23900A6407F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		616BC33C231CC23900A6407F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		616BC33E231CC23A00A6407F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		616BC341231CC23A00A6407F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		616BC343231CC23A00A6407F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +47,8 @@
 		616BC355231CC23A00A6407F /* JingGaoKuangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JingGaoKuangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		616BC359231CC23A00A6407F /* JingGaoKuangUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JingGaoKuangUITests.m; sourceTree = "<group>"; };
 		616BC35B231CC23A00A6407F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616BC36A231CF13E00A6407F /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		616BC36B231CF13E00A6407F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				616BC334231CC23900A6407F /* JingGaoKuang */,
-				616BC34D231CC23A00A6407F /* JingGaoKuangTests */,
 				616BC358231CC23A00A6407F /* JingGaoKuangUITests */,
 				616BC333231CC23800A6407F /* Products */,
 			);
@@ -103,13 +100,13 @@
 			children = (
 				616BC335231CC23900A6407F /* AppDelegate.h */,
 				616BC336231CC23900A6407F /* AppDelegate.m */,
-				616BC338231CC23900A6407F /* ViewController.h */,
-				616BC339231CC23900A6407F /* ViewController.m */,
-				616BC33B231CC23900A6407F /* Main.storyboard */,
 				616BC33E231CC23A00A6407F /* Assets.xcassets */,
 				616BC340231CC23A00A6407F /* LaunchScreen.storyboard */,
 				616BC343231CC23A00A6407F /* Info.plist */,
 				616BC344231CC23A00A6407F /* main.m */,
+				616BC36A231CF13E00A6407F /* RootViewController.h */,
+				616BC36B231CF13E00A6407F /* RootViewController.m */,
+				616BC34D231CC23A00A6407F /* JingGaoKuangTests */,
 			);
 			path = JingGaoKuang;
 			sourceTree = "<group>";
@@ -237,7 +234,6 @@
 			files = (
 				616BC342231CC23A00A6407F /* LaunchScreen.storyboard in Resources */,
 				616BC33F231CC23A00A6407F /* Assets.xcassets in Resources */,
-				616BC33D231CC23900A6407F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				616BC33A231CC23900A6407F /* ViewController.m in Sources */,
 				616BC345231CC23A00A6407F /* main.m in Sources */,
 				616BC337231CC23900A6407F /* AppDelegate.m in Sources */,
+				616BC36D231CF13E00A6407F /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +296,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		616BC33B231CC23900A6407F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				616BC33C231CC23900A6407F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		616BC340231CC23A00A6407F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
